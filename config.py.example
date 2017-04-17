@@ -1,0 +1,3 @@
+trackNum = "1Z3V891R13462Xxxx"
+
+curlString = "curl -X POST 'https://api.twilio.com/2010-04-01/Accounts/XXXX/Messages.json' --data-urlencode 'To=+162XXXX' --data-urlencode 'From=+162XXX' --data-urlencode 'Body=UPS Shipped!' -u Account:sid"
