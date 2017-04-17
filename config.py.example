@@ -1,5 +1,5 @@
 #set trackNum to the UPS tracking number
 trackNum = "1Z3V891R13462Xxxx"
 
-#foundCommand is executed when Louisville has been found on the page. I mangled the real one I used. Replace with your own twilio credentials or put something else here.
+#foundCommand is executed when Louisville has been found on the page. I used the Twilio REST API. I mangled the real one I used. Replace with your own twilio credentials or put something else here.
 foundCommand = "curl -X POST 'https://api.twilio.com/2010-04-01/Accounts/XXXX/Messages.json' --data-urlencode 'To=+162XXXX' --data-urlencode 'From=+162XXX' --data-urlencode 'Body=UPS Shipped!' -u Account:sid"
