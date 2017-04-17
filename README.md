@@ -3,4 +3,4 @@ Simple script to run on a loop and run a shell command when found. I used a curl
 
 Needs the requests library
 
-Run run.py in screen or tmux or something.
+Run `run.py` in screen or tmux or something.
