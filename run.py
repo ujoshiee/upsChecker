@@ -7,9 +7,9 @@ shipped = 0
 while shipped == 0:
 	try:
 		r = requests.get('https://wwwapps.ups.com/WebTracking/processInputRequest?loc=en_US&Requester=MCDP&tracknum=' + trackNum + '&returnTo=https://wwwapps.ups.com/mcdp?loc=en_US')
-		if (r.text.find('Lousville')>0):
+		if (r.text.find('Louisville')>0):
 			print('found')
-			os.system(curlString)
+			os.system(foundCommand)
 			shipped = 1
 		else:
 			print('not found')
